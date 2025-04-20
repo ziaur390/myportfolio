@@ -1,0 +1,12 @@
+[build]
+# Assuming your Zola site is at the root level
+publish = "public"
+command = "zola build"
+
+[build.environment]
+# Set the version of Zola you're using
+ZOLA_VERSION = "0.20.0"  
+
+# Optional: Customize behavior for preview deployments
+[context.deploy-preview]
+command = "zola build --base-url $DEPLOY_PRIME_URL"
