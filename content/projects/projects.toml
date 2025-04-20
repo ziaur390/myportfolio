@@ -1,0 +1,20 @@
+[[collection]]
+type = "card"
+title = "CI/CD Pipeline for ML Model Deployment"
+link = "https://github.com/ziaur390/ml-cicd-titanic"
+content = "Orchestrated a CI/CD pipeline for a Titanic survival prediction model using FastAPI. Built automated workflows using GitHub Actions to test, build, and deploy the Dockerized ML model application on every push to the repository."
+tags = ["python", "fastapi", "docker", "github actions"]
+
+[[collection]]
+type = "card"
+title = "Dockerized Machine Learning Application with FastAPI"
+link = "https://github.com/ziaur390/docker-ml-fastapi"
+content = "Developed a machine learning application with FastAPI to expose trained model predictions via API endpoints. Containerized the entire application using Docker for scalable deployment across environments."
+tags = ["python", "scikit-learn", "fastapi", "docker"]
+
+[[collection]]
+type = "card"
+title = "Loan Approval Classifier Deployment on Azure Cloud"
+link = "https://github.com/ziaur390/loan-approval-azure"
+content = "Built an end-to-end MLOps pipeline on Azure for a loan approval prediction system. Incorporated preprocessing, model training, containerization with Docker, and deployment using Azure ML services."
+tags = ["python", "azure ml", "scikit-learn", "docker"]
